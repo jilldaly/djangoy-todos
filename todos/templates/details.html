@@ -1,0 +1,14 @@
+{% include 'partials/header.html' %}
+
+	<a href="/todos"><< Go Back</a>
+	<br>
+	<h1>{{todo.title}}</h1>
+	<p>{{todo.text}}</p>
+	<br>
+	<p>Created on {{todo.due_at}}</p>
+	<p>Due by {{todo.due_at}}</p>
+	<br>
+	<p>Done: {{todo.done}}</p>
+	<p>List: {{todo.category}}</p>
+
+{% include 'partials/footer.html' %}

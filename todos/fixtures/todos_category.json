@@ -1,0 +1,10 @@
+[
+  {
+    "model": "todos.category",
+    "pk": 1,
+    "fields": {
+      "name": "My List",
+      "description": "This is your default list"
+    }
+  }
+]
